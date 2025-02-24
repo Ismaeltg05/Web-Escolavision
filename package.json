@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://Ismaeltg05.github.io/Web-Escolavision",
+  "homepage": "https://Ismaeltg05.github.io/Web-Escolavision/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
