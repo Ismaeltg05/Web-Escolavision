@@ -14,6 +14,7 @@ function App() {
         <Route path="/Web-Escolavision/home" element={<Home />} />
         <Route path="/Web-Escolavision/about" element={<About />} />
         <Route path="/Web-Escolavision/contact" element={<Contact />} />
+        
       </Routes>
       <Footer />
     </BrowserRouter>
