@@ -11,9 +11,9 @@ function App() {
     <BrowserRouter>
       <Navbar />
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/contact" element={<Contact />} />
+        <Route path="/Web-Escolavision/" element={<Home />} />
+        <Route path="/Web-Escolavision/about" element={<About />} />
+        <Route path="/Web-Escolavision/contact" element={<Contact />} />
       </Routes>
       <Footer />
     </BrowserRouter>
