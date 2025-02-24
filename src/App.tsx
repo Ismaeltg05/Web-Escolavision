@@ -13,7 +13,7 @@ function App() {
         <Navbar />
         <div className="main-content">
           <Routes>
-            <Route path="/Web-Escolavision/" element={<Home />} />
+            <Route path="/Web-Escolavision/home" element={<Home />} />
             <Route path="/Web-Escolavision/about" element={<About />} />
             <Route path="/Web-Escolavision/contact" element={<Contact />} />
           </Routes>
