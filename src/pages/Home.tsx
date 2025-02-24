@@ -1,6 +1,6 @@
 function Home() {
     return (
-        <div className="p-8 max-w-4xl mx-auto bg-white shadow-lg rounded-lg">
+        <div className="p-8 max-w-4xl mx-auto bg-white shadow-lg rounded-lg overflow-hidden">
             <br />
             <h1 className="text-4xl font-bold text-center text-blue-600 mb-8">Encuentra tu Camino Académico y Profesional</h1>
             

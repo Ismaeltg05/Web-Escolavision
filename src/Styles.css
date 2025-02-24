@@ -120,7 +120,7 @@ body {
     color: white;
     text-align: center;
     padding: 15px;
-    width: 100vw; /* Asegura que el footer ocupe todo el ancho */
+    width: 98%; /* Asegura que el footer ocupe todo el ancho */
     position: relative;
     left: 0;
     right: 0;
