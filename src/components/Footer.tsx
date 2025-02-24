@@ -3,7 +3,7 @@
 function Footer() {
   return (
     <footer className="footer">
-      <p>© 2024 Tu Aplicación. Todos los derechos reservados.</p>
+      <p>© EscolaVision. Designed by: Ismael Torres & Adrian Ruiz</p>
     </footer>
   );
 }

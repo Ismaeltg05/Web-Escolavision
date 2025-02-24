@@ -14,6 +14,7 @@ body {
     color: var(--text-color);
     margin: 0;
     padding: 0;
+    width: 100%;
 }
 
 /* Botones */
@@ -119,5 +120,8 @@ body {
     color: white;
     text-align: center;
     padding: 15px;
-    width: 100%;
+    width: 100vw; /* Asegura que el footer ocupe todo el ancho */
+    position: relative;
+    left: 0;
+    right: 0;
 }
