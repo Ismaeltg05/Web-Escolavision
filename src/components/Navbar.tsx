@@ -10,7 +10,7 @@ function Navbar() {
   return (
     <nav className="navbar">
       <div className="navbar-logo">
-        <Link to="/Web-Escolavision/home">
+        <Link to="/Web-Escolavision/">
           <img src={logo} alt="Logo" className="logo" />
         </Link>
       </div>
@@ -22,7 +22,7 @@ function Navbar() {
 
       {/* Menú de navegación */}
       <ul className={`navbar-menu ${isOpen ? "open" : ""}`}>
-        <li><Link to="/Web-Escolavision/home" className="nav-link">Inicio</Link></li>
+        <li><Link to="/Web-Escolavision/" className="nav-link">Inicio</Link></li>
         <li><Link to="/Web-Escolavision/about" className="nav-link">Sobre Nosotros</Link></li>
         <li><Link to="/Web-Escolavision/contact" className="nav-link">Contacto</Link></li>
       </ul>
