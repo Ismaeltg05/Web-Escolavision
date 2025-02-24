@@ -11,7 +11,7 @@ function App() {
     <BrowserRouter>
       <Navbar />
       <Routes>
-        <Route path="/Web-Escolavision/" element={<Home />} />
+        <Route path="/Web-Escolavision/home" element={<Home />} />
         <Route path="/Web-Escolavision/about" element={<About />} />
         <Route path="/Web-Escolavision/contact" element={<Contact />} />
       </Routes>
