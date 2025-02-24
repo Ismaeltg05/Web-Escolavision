@@ -108,3 +108,16 @@ body {
 .rounded-button {
     border-radius: 30px;
 }
+
+.main-content {
+    flex: 1; /* Hace que el contenido ocupe todo el espacio disponible */
+}
+
+/* Footer normal (queda abajo sin tapar contenido) */
+.footer {
+    background-color: var(--primary-hover);
+    color: white;
+    text-align: center;
+    padding: 15px;
+    width: 100%;
+}
