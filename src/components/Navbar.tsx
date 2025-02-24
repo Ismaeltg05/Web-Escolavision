@@ -5,9 +5,9 @@ function Navbar() {
   return (
     <nav className="navbar">
       <ul className="navbar-menu">
-        <li><Link to="/" className="nav-link">Inicio</Link></li>
-        <li><Link to="/about" className="nav-link">Sobre Nosotros</Link></li>
-        <li><Link to="/contact" className="nav-link">Contacto</Link></li>
+        <li><Link to="/Web-Escolavision/" className="nav-link">Inicio</Link></li>
+        <li><Link to="/Web-Escolavision/about" className="nav-link">Sobre Nosotros</Link></li>
+        <li><Link to="/Web-Escolavision/contact" className="nav-link">Contacto</Link></li>
       </ul>
     </nav>
   );
