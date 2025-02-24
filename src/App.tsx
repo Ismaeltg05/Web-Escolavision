@@ -9,13 +9,17 @@ import Footer from "./components/Footer";
 function App() {
   return (
     <BrowserRouter>
-      <Navbar />
-      <Routes>
-        <Route path="/Web-Escolavision/" element={<Home />} />
-        <Route path="/Web-Escolavision/about" element={<About />} />
-        <Route path="/Web-Escolavision/contact" element={<Contact />} />
-      </Routes>
-      <Footer />
+      <div className="container">
+        <Navbar />
+        <div className="main-content">
+          <Routes>
+            <Route path="/Web-Escolavision/" element={<Home />} />
+            <Route path="/Web-Escolavision/about" element={<About />} />
+            <Route path="/Web-Escolavision/contact" element={<Contact />} />
+          </Routes>
+        </div>
+        <Footer />
+      </div>
     </BrowserRouter>
   );
 }
