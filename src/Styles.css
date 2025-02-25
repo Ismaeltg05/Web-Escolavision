@@ -8,6 +8,10 @@
     --white-color: #FFFFFF; /* Blanco puro */
 }
 
+*{
+    width: 100%;
+}
+
 /* Estilos generales */
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
