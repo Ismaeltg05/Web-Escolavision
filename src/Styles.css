@@ -73,6 +73,6 @@ body {
     color: var(--white-color);
     text-align: center;
     padding: 15px;
-    position: relative;
-    width: 98%;
+    position: absolute;
+    width: 100%;
 }
