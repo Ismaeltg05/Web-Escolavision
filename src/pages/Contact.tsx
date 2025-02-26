@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import styles from "./Contact.module.css";
+import emailjs from 'emailjs-com';
 
 function Contact() {
   const [formData, setFormData] = useState({
@@ -7,6 +8,7 @@ function Contact() {
     email: '',
     message: ''
   });
+  const [isSending, setIsSending] = useState(false); // Para mostrar el estado de envío
 
   const handleChange = (e) => {
     setFormData({
@@ -17,13 +19,32 @@ function Contact() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
+    setIsSending(true);
 
-    const subject = encodeURIComponent('Nuevo mensaje de contacto');
-    const body = encodeURIComponent(
-      `Nombre: ${formData.name}\nEmail: ${formData.email}\nMensaje: ${formData.message}`
+    // Utiliza tus credenciales de EmailJS aquí
+    emailjs.send(
+      'service_h5l5t9i', // Tu ID de servicio
+      'template_8olwxbr', // Tu ID de plantilla
+      formData,
+      'UKPs1uOZ3DXeTLxEV' // Tu ID de usuario
+    )
+    .then(
+      (response) => {
+        console.log('SUCCESS!', response);
+        alert('Mensaje enviado correctamente.');
+        setIsSending(false);
+        setFormData({
+          name: '',
+          email: '',
+          message: ''
+        });
+      },
+      (error) => {
+        console.error('FAILED...', error);
+        alert('Hubo un error al enviar el mensaje. Intenta de nuevo.');
+        setIsSending(false);
+      }
     );
-
-    window.location.href = `mailto:info@escolavision.com?subject=${subject}&body=${body}`;
   };
 
   return (
@@ -65,7 +86,9 @@ function Contact() {
           ></textarea>
         </div>
 
-        <button type="submit">Enviar</button>
+        <button type="submit" disabled={isSending}>
+          {isSending ? 'Enviando...' : 'Enviar'}
+        </button>
       </form>
     </div>
   );
