@@ -5,12 +5,14 @@ import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
+import Downloads from "./components/Downloads";
 
 function App() {
   return (
     <BrowserRouter>
       <div className="container">
         <Navbar />
+        <Downloads />
         <div className="main-content">
           <Routes>
             <Route path="/Web-Escolavision/" element={<Home />} />
@@ -23,5 +25,5 @@ function App() {
     </BrowserRouter>
   );
 }
-  
+
 export default App;
