@@ -6,7 +6,7 @@ function Downloads() {
   return (
     <div className="download-links">
       <div className="download-section">
-        <label>Descarga nuestra app para Android:</label>
+        <label>Descarga nuestra app para Movil:</label>
         <a href="https://play.google.com/store/apps/details?id=com.escolavision.testescolavision&pcampaignid=web_share" target="_blank" rel="noopener noreferrer">
           <button className="download-button">
             <FaGooglePlay className="icon" /> Descargar desde PlayStore
