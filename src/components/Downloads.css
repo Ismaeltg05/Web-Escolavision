@@ -1,6 +1,5 @@
 .download-links {
   width: 98%;
-  margin: 1%;
   margin-top: 60px; /* Ajusta este valor según la altura de tu Navbar */
   display: flex;
   gap: 20px;
@@ -10,7 +9,6 @@
 .download-section {
   align-items: center;
   text-align: center;
-  margin: 0;
   padding: 0;
   gap: 0;
 }
@@ -38,8 +36,4 @@
 
 .download-button:hover {
   background-color: #0056b3;
-}
-
-.icon {
-  margin-right: 5px;
 }

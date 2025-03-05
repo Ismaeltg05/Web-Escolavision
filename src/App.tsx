@@ -19,8 +19,8 @@ function App() {
             <Route path="/Web-Escolavision/contact" element={<Contact />} />
           </Routes>
         </div>
-        <Footer />
       </div>
+      <Footer />
     </BrowserRouter>
   );
 }
