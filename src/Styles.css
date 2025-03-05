@@ -26,7 +26,7 @@ body {
 
 .main-content{
     background-color: #f4f7fc;
-    width: 98%;
+    width: 97%;
     padding: 1%;
     display: flex;
     justify-content: center;
@@ -78,6 +78,8 @@ body {
     color: var(--white-color);
     text-align: center;
     position: absolute;
-    width: 98%;
-    padding: 1%;
+    width: 100%;
+    padding: 0%;
+    padding-top: 1%;
+    padding-bottom: 1%;
 }
