@@ -23,9 +23,12 @@
 
 /* Menú de navegación */
 .navbar-menu {
+    width: auto;
     list-style: none;
     display: flex;
-    gap: 0px;
+    gap: 50px;
+    align-items: center;
+    margin-right: 20px;
 }
 
 /* Enlaces del menú */
