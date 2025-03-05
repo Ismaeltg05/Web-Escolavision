@@ -17,6 +17,7 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: #f4f7fc;
     color: var(--secondary-color);
+    margin: 0%;
 }
 
 .container {
@@ -26,7 +27,6 @@ body {
 .main-content{
     background-color: #f4f7fc;
     width: 97%;
-    padding: 1%;
     display: flex;
     justify-content: center;
     align-items: center;
