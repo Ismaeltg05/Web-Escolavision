@@ -1,4 +1,6 @@
 .download-links {
+  width: 98%;
+  margin: 1%;
   margin-top: 60px; /* Ajusta este valor según la altura de tu Navbar */
   display: flex;
   gap: 20px;
@@ -6,31 +8,38 @@
 }
 
 .download-section {
-  text-align: center;
-  flex: 1;
-  display: flex;
-  flex-direction: column;
   align-items: center;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  gap: 0;
 }
 
 .download-button {
+  margin: auto;
+  width: auto;
   display: flex;
+  flex-direction: row; /* Asegúrate de que los elementos estén en una fila */
+  align-self: center;
   align-items: center;
-  justify-content: center;
-  padding: 10px 20px;
-  background-color: #007bff;
-  color: white;
   border: none;
   border-radius: 5px;
   cursor: pointer;
   transition: background-color 0.3s ease;
-  margin-top: 10px; /* Añadir margen superior para separar el botón del label */
+  gap: 10px; /* Ajusta este valor según sea necesario */
 }
 
-.download-button .icon {
-  margin-right: 8px;
+.lblButton {
+  color: white;
+  width: auto;
+  display: flex;
+  align-items: center;
 }
 
 .download-button:hover {
   background-color: #0056b3;
+}
+
+.icon {
+  margin-right: 5px;
 }

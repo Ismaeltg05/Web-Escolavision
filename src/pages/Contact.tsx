@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import styles from "./Contact.module.css";
 import emailjs from 'emailjs-com';
+import styles from "./Contact.module.css";
 
 function Contact() {
   const [formData, setFormData] = useState({
@@ -8,7 +8,7 @@ function Contact() {
     email: '',
     message: ''
   });
-  const [isSending, setIsSending] = useState(false); // Para mostrar el estado de envío
+  const [isSending, setIsSending] = useState(false);
 
   const handleChange = (e) => {
     setFormData({
@@ -21,12 +21,11 @@ function Contact() {
     e.preventDefault();
     setIsSending(true);
 
-    // Utiliza tus credenciales de EmailJS aquí
     emailjs.send(
-      'service_h5l5t9i', // Tu ID de servicio
-      'template_8olwxbr', // Tu ID de plantilla
+      'service_h5l5t9i',
+      'template_8olwxbr',
       formData,
-      'UKPs1uOZ3DXeTLxEV' // Tu ID de usuario
+      'UKPs1uOZ3DXeTLxEV'
     )
     .then(
       (response) => {
@@ -49,47 +48,53 @@ function Contact() {
 
   return (
     <div className={styles.container}>
-      <h1>Contacto</h1>
-      <form onSubmit={handleSubmit} className={styles.formWrapper}>
-        <div>
-          <label htmlFor="name">Nombre:</label>
-          <input
-            type="text"
-            id="name"
-            name="name"
-            value={formData.name}
-            onChange={handleChange}
-            required
-          />
-        </div>
-
-        <div>
-          <label htmlFor="email">Email:</label>
-          <input
-            type="email"
-            id="email"
-            name="email"
-            value={formData.email}
-            onChange={handleChange}
-            required
-          />
-        </div>
-
-        <div>
-          <label htmlFor="message">Mensaje:</label>
-          <textarea
-            id="message"
-            name="message"
-            value={formData.message}
-            onChange={handleChange}
-            required
-          ></textarea>
-        </div>
-
-        <button type="submit" disabled={isSending}>
-          {isSending ? 'Enviando...' : 'Enviar'}
-        </button>
-      </form>
+      <h1 className={styles.title}>Contacto</h1>
+      <div className={styles.formContainer}>
+        <form onSubmit={handleSubmit} className={styles.form}>
+          <div className={styles.inputGroup}>
+            <label htmlFor="name" className={styles.label}>Nombre:</label>
+            <input
+              type="text"
+              id="name"
+              name="name"
+              value={formData.name}
+              onChange={handleChange}
+              required
+              className={styles.input}
+            />
+          </div>
+          <div className={styles.inputGroup}>
+            <label htmlFor="email" className={styles.label}>Email:</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              value={formData.email}
+              onChange={handleChange}
+              required
+              className={styles.input}
+            />
+          </div>
+          <div className={styles.inputGroup}>
+            <label htmlFor="message" className={styles.label}>Mensaje:</label>
+            <textarea
+              id="message"
+              name="message"
+              value={formData.message}
+              onChange={handleChange}
+              required
+              className={styles.textarea}
+            ></textarea>
+          </div>
+          <button
+            type="submit"
+            className={styles.button}
+            disabled={isSending}
+          >
+            {isSending ? 'Enviando...' : 'Enviar'}
+          </button>
+        </form>
+      </div>
     </div>
   );
 }

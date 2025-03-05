@@ -12,7 +12,6 @@ function App() {
     <BrowserRouter>
       <div className="container">
         <Navbar />
-        <Downloads />
         <div className="main-content">
           <Routes>
             <Route path="/Web-Escolavision/" element={<Home />} />
