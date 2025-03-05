@@ -7,27 +7,28 @@ function Downloads() {
     <div className="download-links">
       <div className="download-section">
         <label>Descarga nuestra app para Android:</label>
-        <a
-          href="https://play.google.com/store/apps/details?id=com.escolavision.testescolavision&pcampaignid=web_share"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <button className="download-button">
+        <button className="download-button">
+          <a
+            href="https://play.google.com/store/apps/details?id=com.escolavision.testescolavision&pcampaignid=web_share"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <FaGooglePlay className="icon" />
             <span className="lblButton">Descargar desde PlayStore</span>
-          </button>
-        </a>
+          </a>
+        </button>
       </div>
       <div className="download-section">
         <label>Descarga nuestra app para Windows, Linux y Mac:</label>
-        <a href="/path/to/your/file.exe" download>
+        
           <button className="download-button">
+          <a href="/path/to/your/file.exe" download>
             <FaWindows className="icon" />
             <FaLinux className="icon" />
             <FaApple className="icon" />
             <span className="lblButton">Descargar app</span>
+            </a>
           </button>
-        </a>
       </div>
     </div>
   );
