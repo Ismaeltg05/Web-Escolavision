@@ -24,7 +24,7 @@ body {
 
 .container {
     padding: 0%;
-    min-height: 87vh; /* Ocupar toda la altura de la pantalla */
+    min-height: 90vh; /* Ocupar toda la altura de la pantalla */
 }
 
 .main-content{
