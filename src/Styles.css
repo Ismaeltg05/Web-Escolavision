@@ -26,13 +26,16 @@ body {
 
 .main-content{
     background-color: #f4f7fc;
-    width: 95%;
     margin: auto;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
+.home-content{
+    width: 85%;
+    margin: auto;
+}
 /* Botones */
 .button {
     background-color: var(--primary-color);
