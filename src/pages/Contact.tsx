@@ -48,7 +48,15 @@ function Contact() {
 
   return (
     <div className={styles.container}>
-      <h1 className={styles.title}>Contacto</h1>
+      <h1 className={styles.title}>¡Contáctanos! 📩</h1>
+      <p className={styles.description}>
+        Estamos aquí para ayudarte. Si tienes alguna pregunta, sugerencia o necesitas más información,
+        completa el formulario y te responderemos lo antes posible.
+      </p>
+      <p className={styles.description}>
+        También puedes comunicarte con nosotros por correo electrónico: 
+        <a href="mailto:info@escolavision.com" className={styles.emailLink}>info@escolavision.com</a> ¡Esperamos tu mensaje! 😊
+      </p>
       <div className={styles.formContainer}>
         <form onSubmit={handleSubmit} className={styles.form}>
           <div className={styles.inputGroup}>
