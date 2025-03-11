@@ -38,7 +38,7 @@ function Downloads() {
         
           <button className="download-button">
           <a
-            href="https://drive.google.com/file/d/1tKJSCZ8HfE2EXtT-7cFFplCI-aCGfWbb/view?usp=sharing"
+            href="https://drive.google.com/file/d/1tKJSCZ8HfE2EXtT-7cFFplCI-aCGfWbb/view"
             rel="noopener noreferrer"
           >
             <FaWindows className="icon" />
