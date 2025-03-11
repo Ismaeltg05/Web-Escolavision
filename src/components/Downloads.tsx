@@ -38,7 +38,7 @@ function Downloads() {
         
           <button className="download-button">
           <a
-            href="https://drive.google.com/file/d/1BFO0cZ6UY3FlwaIL7UHrx4CeU0KrgjHb/view?usp=sharing"
+            href="https://drive.google.com/file/d/1tKJSCZ8HfE2EXtT-7cFFplCI-aCGfWbb/view?usp=drivesdk"
             target="_blank"
             rel="noopener noreferrer"
           >
