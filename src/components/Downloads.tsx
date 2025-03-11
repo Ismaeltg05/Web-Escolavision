@@ -19,7 +19,7 @@ function Downloads() {
         </button>
         <button className="download-button">
           <a
-            href="/src/downloads/app-release.apk"
+            href="https://drive.google.com/file/d/15PnBF4VyG-5hB-08hAkwL_0WBbgw9ewU/view?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
           >
