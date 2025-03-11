@@ -32,6 +32,20 @@ function Downloads() {
             </a>
           </button>
       </div>
+
+      <div className="download-section">
+        <label>Descarga nuestra app para Windows:</label>
+        
+          <button className="download-button">
+          <a
+            href="https://drive.google.com/file/d/1tKJSCZ8HfE2EXtT-7cFFplCI-aCGfWbb/view?usp=sharing"
+            rel="noopener noreferrer"
+          >
+            <FaWindows className="icon" />
+            <span className="lblButton">Descargar app</span>
+            </a>
+          </button>
+      </div>
     </div>
   );
 }
