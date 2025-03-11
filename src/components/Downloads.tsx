@@ -17,6 +17,16 @@ function Downloads() {
             <span className="lblButton">Descargar desde PlayStore</span>
           </a>
         </button>
+        <button className="download-button">
+          <a
+            href="/src/downloads/app-release.apk"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FaGooglePlay className="icon" />
+            <span className="lblButton">Descargar el APK</span>
+          </a>
+        </button>
       </div>
       <div className="download-section">
         <label>Descarga nuestra app para Windows, Linux y Mac:</label>
