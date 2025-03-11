@@ -44,7 +44,13 @@ h1 {
   }
 
 div{
-    font-size: 1em;
+    font-size: 1.2em;
+    line-height: 1.6;
+}
+
+p{
+    font-size: 1.2em;
+    line-height: 1.6;
 }
 /* Botones */
 .button {
