@@ -12,10 +12,13 @@
     width: 100%;
 }
 
+#root{
+    background-color: #AED6F1;
+}
 /* Estilos generales */
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #f4f7fc;
+    background-color: #AED6F1;
     color: var(--secondary-color);
     margin: 0%;
     display: flex;
@@ -23,13 +26,14 @@ body {
 }
 
 .container {
+    background-color: #AED6F1;
     padding: 0%;
     min-height: 87vh; /* Ocupar toda la altura de la pantalla */
 }
 
 .main-content{
     flex: 1;
-    background-color: #f4f7fc;
+    background-color: #AED6F1;
     margin: auto;
 }
 
