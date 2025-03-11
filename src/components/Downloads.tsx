@@ -28,18 +28,6 @@ function Downloads() {
           </a>
         </button>
       </div>
-      <div className="download-section">
-        <label>Descarga nuestra app para Windows, Linux y Mac:</label>
-        
-          <button className="download-button">
-          <a href="/path/to/your/file.exe" download>
-            <FaWindows className="icon" />
-            <FaLinux className="icon" />
-            <FaApple className="icon" />
-            <span className="lblButton">Descargar app</span>
-            </a>
-          </button>
-      </div>
     </div>
   );
 }
