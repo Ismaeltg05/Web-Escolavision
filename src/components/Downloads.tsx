@@ -6,47 +6,47 @@ function Downloads() {
   return (
     <div className="download-links">
       <div className="download-section">
-        <label>Descarga nuestra app para Android:</label>
-        <button className="download-button">
+        <h2>Descarga nuestra app Movil:</h2>
+        <div className="download-button-container">
           <a
             href="https://play.google.com/store/apps/details?id=com.escolavision.testescolavision&pcampaignid=web_share"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <FaGooglePlay className="icon" />
-            <span className="lblButton">Descargar desde PlayStore</span>
+            <button className="download-button">
+              <FaGooglePlay className="icon" />
+              <span className="lblButton">Descargar desde PlayStore</span>
+            </button>
           </a>
-        </button>
-      </div>
-
-      <div className="download-section">
-        <label>Descarga el apk de nuestra app:</label>
-          <button className="download-button">
           <a
             href="https://drive.google.com/file/d/11jAIOyFpoGKVwlo1Jz5rHHxYCqpz3lhj/view?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
           >
-	          <FaGooglePlay className="icon" />
-            <span className="lblButton">Descargar APK</span>
-            </a>
-          </button>
+            <button className="download-button">
+              <FaGooglePlay className="icon" />
+              <span className="lblButton">Descargar APK</span>
+            </button>
+          </a>
+        </div>
       </div>
 
       <div className="download-section">
-        <label>Descarga nuestra app para Windows:</label>
-        
-          <button className="download-button">
+        <h2>Descarga nuestra app de Escritorio:</h2>
+        <div className="download-button-container">
           <a
-            href="https://drive.google.com/file/d/1tKJSCZ8HfE2EXtT-7cFFplCI-aCGfWbb/view?usp=drivesdk"
+            href="https://drive.google.com/file/d/1BFO0cZ6UY3FlwaIL7UHrx4CeU0KrgjHb/view?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <FaWindows className="icon" />
-            <span className="lblButton">Descargar app</span>
-            </a>
-          </button>
+            <button className="download-button">
+              <FaWindows className="icon" />
+              <span className="lblButton">Descargar app Windows</span>
+            </button>
+          </a>
+        </div>
       </div>
+      <hr />
     </div>
   );
 }
