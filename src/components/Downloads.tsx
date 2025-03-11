@@ -17,16 +17,20 @@ function Downloads() {
             <span className="lblButton">Descargar desde PlayStore</span>
           </a>
         </button>
-        <button className="download-button">
+      </div>
+
+      <div className="download-section">
+        <label>Descarga el apk de nuestra app:</label>
+          <button className="download-button">
           <a
-            href="https://drive.google.com/file/d/15PnBF4VyG-5hB-08hAkwL_0WBbgw9ewU/view?usp=sharing"
+            href="https://drive.google.com/file/d/11jAIOyFpoGKVwlo1Jz5rHHxYCqpz3lhj/view?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <FaGooglePlay className="icon" />
-            <span className="lblButton">Descargar el APK</span>
-          </a>
-        </button>
+	          <FaGooglePlay className="icon" />
+            <span className="lblButton">Descargar APK</span>
+            </a>
+          </button>
       </div>
     </div>
   );
