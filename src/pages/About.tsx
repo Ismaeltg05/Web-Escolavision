@@ -3,7 +3,7 @@ import "./about.css";
 
 function About() {
   return (
-    <div className="flex flex-col items-center p-6 min-h-screen bg-gray-100">
+    <div className="aboutus">
       <h1 className="text-3xl font-bold mb-6 text-center">Sobre Nosotros</h1>
       <div className="w-full max-w-4xl flex flex-col items-center">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 w-full">
