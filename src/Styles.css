@@ -37,6 +37,15 @@ body {
     width: 85%;
     margin: auto;
 }
+
+h1 {
+    font-size: 3.2em;
+    line-height: 1.1;
+  }
+
+div{
+    font-size: 1em;
+}
 /* Botones */
 .button {
     background-color: var(--primary-color);
