@@ -1,3 +1,9 @@
+/**
+ * @file Navbar.tsx
+ * @description This file contains the Navbar component of the application.
+ * @author Ismael Torres González
+ */
+
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import { Menu, X } from "lucide-react"; // Íconos de menú

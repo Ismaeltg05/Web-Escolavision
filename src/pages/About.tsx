@@ -1,3 +1,9 @@
+/**
+ * @ƒile This file is the About page of the application.
+ * @description This file contains the About component of the application.
+ * @author Ismael Torres González
+ */
+
 import React from 'react';
 import "./about.css";
 

@@ -1,3 +1,8 @@
+/**
+ * @file Downloads.tsx
+ * @description This file contains the Downloads component of the application.
+ * @author Ismael Torres González
+ */
 import React from "react";
 import "./Downloads.css";
 import { FaGooglePlay, FaWindows, FaLinux, FaApple } from "react-icons/fa";

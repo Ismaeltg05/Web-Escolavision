@@ -1,4 +1,9 @@
-// Home.js
+/**
+ * @file Home.tsx
+ * @description This file contains the Home page of the application.
+ * @author Ismael Torres González
+ */
+
 import Downloads from "../components/Downloads";
 
 function Home() {

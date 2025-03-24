@@ -1,3 +1,9 @@
+/**
+ * @file Contact.tsx
+ * @description This file contains the Contact component of the application.
+ * @author Ismael Torres González
+ */
+
 import React, { useState } from 'react';
 import emailjs from 'emailjs-com';
 import styles from "./Contact.module.css";

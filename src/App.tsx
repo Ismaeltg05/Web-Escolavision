@@ -1,3 +1,9 @@
+/**
+ * @file App.tsx
+ * @description This file contains the main component of the application.
+ * @author Ismael Torres González
+ */
+
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "src/styles.css";
 import Home from "./pages/Home";
