@@ -31,6 +31,7 @@ function Navbar() {
         <li><Link to="/Web-Escolavision/" className="nav-link">Inicio</Link></li>
         <li><Link to="/Web-Escolavision/about" className="nav-link">Sobre Nosotros</Link></li>
         <li><Link to="/Web-Escolavision/contact" className="nav-link">Contacto</Link></li>
+        {/* <li><Link to="/Web-Escolavision/EscolaVision-Desktop" className="nav-link">EscolaVision Desktop</Link></li> */}
       </ul>
     </nav>
   );
