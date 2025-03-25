@@ -26,8 +26,9 @@ function App() {
             <Route path="/Web-Escolavision/EscolaVision-Desktop" element={<Desktop />} />
           </Routes>
         </div>
+        <Footer />
       </div>
-      <Footer />
+      
     </BrowserRouter>
   );
 }
