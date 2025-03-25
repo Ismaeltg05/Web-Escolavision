@@ -1,3 +1,9 @@
+/**
+ * @file EscolaVision-Desktop.tsx
+ * @description EscolaVision Desktop component.
+ * @author Adrian Ruiz Sanchez
+ */
+
 const EscolavisionDesktop = () => {
   return (
     <div style={{ margin: 0, overflow: "hidden", height: "82vh" }}>
